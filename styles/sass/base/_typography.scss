@@ -3,6 +3,138 @@ html {
   font-size: 62.5%;
 }
 
+@font-face {
+  font-family: 'GTSectraFineBold';
+  src: url('../fonts/GTSectraFineBold-Italic.eot');
+  src: url('../fonts/GTSectraFineBold-Italic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/GTSectraFineBold-Italic.woff2') format('woff2'),
+      url('../fonts/GTSectraFineBold-Italic.woff') format('woff'),
+      url('../fonts/GTSectraFineBold-Italic.ttf') format('truetype'),
+      url('../fonts/GTSectraFineBold-Italic.svg#GTSectraFineBold-Italic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GTSectraFine';
+  src: url('../fonts/GTSectraFine-BlackItalic.eot');
+  src: url('../fonts/GTSectraFine-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/GTSectraFine-BlackItalic.woff2') format('woff2'),
+      url('../fonts/GTSectraFine-BlackItalic.woff') format('woff'),
+      url('../fonts/GTSectraFine-BlackItalic.ttf') format('truetype'),
+      url('../fonts/GTSectraFine-BlackItalic.svg#GTSectraFine-BlackItalic') format('svg');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GTSectraFine-BookItalic';
+  src: url('../fonts/GTSectraFine-BookItalic.eot');
+  src: url('../fonts/GTSectraFine-BookItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/GTSectraFine-BookItalic.woff2') format('woff2'),
+      url('../fonts/GTSectraFine-BookItalic.woff') format('woff'),
+      url('../fonts/GTSectraFine-BookItalic.ttf') format('truetype'),
+      url('../fonts/GTSectraFine-BookItalic.svg#GTSectraFine-BookItalic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GTSectraFine';
+  src: url('../fonts/GTSectraFine-Bold.eot');
+  src: url('../fonts/GTSectraFine-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/GTSectraFine-Bold.woff2') format('woff2'),
+      url('../fonts/GTSectraFine-Bold.woff') format('woff'),
+      url('../fonts/GTSectraFine-Bold.ttf') format('truetype'),
+      url('../fonts/GTSectraFine-Bold.svg#GTSectraFine-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GTSectraFine';
+  src: url('../fonts/GTSectraFine-MediumItalic.eot');
+  src: url('../fonts/GTSectraFine-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/GTSectraFine-MediumItalic.woff2') format('woff2'),
+      url('../fonts/GTSectraFine-MediumItalic.woff') format('woff'),
+      url('../fonts/GTSectraFine-MediumItalic.ttf') format('truetype'),
+      url('../fonts/GTSectraFine-MediumItalic.svg#GTSectraFine-MediumItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GTSectraFine';
+  src: url('../fonts/GTSectraFine-Black.eot');
+  src: url('../fonts/GTSectraFine-Black.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/GTSectraFine-Black.woff2') format('woff2'),
+      url('../fonts/GTSectraFine-Black.woff') format('woff'),
+      url('../fonts/GTSectraFine-Black.ttf') format('truetype'),
+      url('../fonts/GTSectraFine-Black.svg#GTSectraFine-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GTSectraFine-Book';
+  src: url('../fonts/GTSectraFine-Book.eot');
+  src: url('../fonts/GTSectraFine-Book.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/GTSectraFine-Book.woff2') format('woff2'),
+      url('../fonts/GTSectraFine-Book.woff') format('woff'),
+      url('../fonts/GTSectraFine-Book.ttf') format('truetype'),
+      url('../fonts/GTSectraFine-Book.svg#GTSectraFine-Book') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GTSectraFine';
+  src: url('../fonts/GTSectraFine-Regular.eot');
+  src: url('../fonts/GTSectraFine-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/GTSectraFine-Regular.woff2') format('woff2'),
+      url('../fonts/GTSectraFine-Regular.woff') format('woff'),
+      url('../fonts/GTSectraFine-Regular.ttf') format('truetype'),
+      url('../fonts/GTSectraFine-Regular.svg#GTSectraFine-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GTSectraFine';
+  src: url('../fonts/GTSectraFine-Medium.eot');
+  src: url('../fonts/GTSectraFine-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/GTSectraFine-Medium.woff2') format('woff2'),
+      url('../fonts/GTSectraFine-Medium.woff') format('woff'),
+      url('../fonts/GTSectraFine-Medium.ttf') format('truetype'),
+      url('../fonts/GTSectraFine-Medium.svg#GTSectraFine-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GTSectraFine-RegularItalic';
+  src: url('../fonts/GTSectraFine-RegularItalic.eot');
+  src: url('../fonts/GTSectraFine-RegularItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/GTSectraFine-RegularItalic.woff2') format('woff2'),
+      url('../fonts/GTSectraFine-RegularItalic.woff') format('woff'),
+      url('../fonts/GTSectraFine-RegularItalic.ttf') format('truetype'),
+      url('../fonts/GTSectraFine-RegularItalic.svg#GTSectraFine-RegularItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
 body {
   font-family: $primary-font;
 }
