@@ -8,9 +8,13 @@
 @import "base/typography.scss";
 
 // LAYOUT
-@import "layout/form";
+@import "layout/nav";
 // COMPONENTS
 @import "components/header";
+@import "components/intro";
+@import "components/card";
+@import "components/textSquare";
+@import "components/rocks";
 
 // Pages
 

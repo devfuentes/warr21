@@ -1,0 +1,62 @@
+.text-square{
+  & .text-square__subtitle{
+    font-size: 1.8rem;
+    margin: 1rem 0;
+
+    &.text-square__subtitle--quote{
+      color: #fff;
+      letter-spacing: 1rem;
+      
+    }
+  }
+
+  & .text-square__title{
+    font-size: 4.5rem;
+    font-weight: bold;
+    background: $color-secondary;
+    position: relative;
+    display: inline-block;
+    z-index: 3; 
+
+    &.text-square__title--small{
+      font-size: 3.4rem;
+
+      &::before{
+        height:85%;
+        width: 120%;
+      }
+
+      &::after{
+       height: 100%;
+       width: 100%;
+       
+      }
+    }
+
+
+    &::after{
+      content: "";
+      color: $color-primary;
+      width: 110%;
+      height:100%;
+      background-color: $color-secondary;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      z-index: -1;
+    }
+    &::before{
+      content: "";
+      width: 70%;
+      height: 180%;
+      border: solid 1px $color-primary;
+      top: 50%;
+      left: 50%;
+      padding: 1rem 0;
+      transform: translate(-50%,-50%);
+      position: absolute;
+      z-index: -2;
+    }
+  }
+}
